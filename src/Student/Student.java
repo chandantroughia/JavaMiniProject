@@ -38,7 +38,7 @@ public class Student {
 		return address;
 	}
 	
-	//setPhone takes in a String argumetn and sets it as the student's phone number
+	//setPhone takes in a String argument and sets it as the student's phone number
 	public void setPhone(String phone){
 		this.phone = phone;
 	}
@@ -68,7 +68,7 @@ public class Student {
 		return department;
 	}
 	
-	//printStudentInfo doesnot retun anythin but prints all the information related to the student
+	//printStudentInfo does not return anything but prints all the information related to the student
 	public void printStudentInfo(){
 		System.out.println("Name of Student: " + name);
 		System.out.println("ID of Student: " + id);
@@ -84,17 +84,17 @@ public class Student {
 		Student student = new Student(661681404, "Chandan"); // using constructor to set student id and name
 		System.out.println("Name: " + student.getName()); // using '.' operator to get the name of the student
 		System.out.println("ID: " + student.getId()); // using '.' operator to get the id of the student
-		student.setAddress("74 College Ave");   // using '.' operator to call setAddress
-		System.out.println("Address: " + student.getAddress());	//using '.' operator to call setAddress
-		student.setAge(26);   //using '.' operator to call setAge 
-		System.out.println("Age: " + student.getAge());  //using '.' operator to call getAge
-		student.setDepartment("ITWS"); //using '.' operator to call setDepartment
+		student.setAddress("74 College Ave"); // using '.' operator to call setAddress
+		System.out.println("Address: " + student.getAddress()); //using '.' operator to call setAddress
+		student.setAge(26); //using '.' operator to call setAge 
+		System.out.println("Age: " + student.getAge()); //using '.' operator to call getAge
+		student.setDepartment("ITWS");//using '.' operator to call setDepartment
 		System.out.println("Department: " + student.getDepartment()); //using '.' operator to call getDepartment
 		student.setPhone("518-961-5749"); //using '.' operator to call setPhone
 		System.out.println("Phone Number: " + student.getPhone()); //using '.' operator to call getPhone
-		/*===============All these detials can be
+		/*===============All these details can be
 		displayed by calling printStudentInfo()*/
 		System.out.println("*******************************************************");
-		student.printStudentInfo();	 //using '.' operator to call printStudentInfo
+		student.printStudentInfo();  //using '.' operator to call printStudentInfo
 	}
 }
