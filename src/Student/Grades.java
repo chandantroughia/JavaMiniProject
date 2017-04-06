@@ -21,7 +21,5 @@ public abstract class Grades {
 	}
 	
 	//abstract method to print the grade
-	public static void finalGrade(int avg){
-		
-	}
+	abstract void finalGrade(int avg);
 }

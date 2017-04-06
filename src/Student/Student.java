@@ -4,12 +4,12 @@ public class Student {
 	
 	//private variables
 	private String name;		//Name of the student
-	private int id;		//ID of the student
+	private int id;				//ID of the student
 	private String phone;		//Contact number of student
-	private int age;		//Age of the student
+	private int age;			//Age of the student
 	
 	private String department;	//Department of the student
-	private String address;	//Address of the student
+	private String address;		//Address of the student
 
 	//public functions
 	//constructor
@@ -81,7 +81,7 @@ public class Student {
 
 	public static void main(String[] args) {
 		//We start with creating an object of type 'Student' --> object = student
-		Student student = new Student(661681404, "Chandan"); // using constructor to set student id and name
+		Student student = new Student(661681404, "Chandan Singh Troughia"); // using constructor to set student id and name
 		System.out.println("Name: " + student.getName()); // using '.' operator to get the name of the student
 		System.out.println("ID: " + student.getId()); // using '.' operator to get the id of the student
 		student.setAddress("74 College Ave"); // using '.' operator to call setAddress
@@ -90,7 +90,7 @@ public class Student {
 		System.out.println("Age: " + student.getAge()); //using '.' operator to call getAge
 		student.setDepartment("ITWS");//using '.' operator to call setDepartment
 		System.out.println("Department: " + student.getDepartment()); //using '.' operator to call getDepartment
-		student.setPhone("518-961-5749"); //using '.' operator to call setPhone
+		student.setPhone("+1-518-961-5749"); //using '.' operator to call setPhone
 		System.out.println("Phone Number: " + student.getPhone()); //using '.' operator to call getPhone
 		/*===============All these details can be
 		displayed by calling printStudentInfo()*/

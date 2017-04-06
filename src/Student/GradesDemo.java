@@ -6,7 +6,7 @@ public class GradesDemo extends Grades{
 	}
 	
 	//Override
-	public static void finalGrade(int avg){
+	public void finalGrade(int avg){
 		
 		if(avg <= 70){
 			System.out.println("C");
@@ -27,7 +27,7 @@ public class GradesDemo extends Grades{
 	public static void main(String[] args) {
 		GradesDemo chandan = new GradesDemo("Chandan", 661681404, 83, 88, 90);
 		int avg = getTotal(83, 88, 90)/3;
-		finalGrade(avg);
+		chandan.finalGrade(avg);
 	}
 	
 }
